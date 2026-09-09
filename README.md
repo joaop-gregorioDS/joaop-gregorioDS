@@ -1,4 +1,4 @@
-# João Paulo Gregório
+# João Paulo Gregório de Souza
 
 Desenvolvedor de software — back-end e full-stack. São Paulo.
 
