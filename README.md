@@ -27,17 +27,17 @@ Plataforma de Web Banking corporativo com ledger contábil de partidas dobradas 
 - **Stack:** TypeScript, Node.js, Express, PostgreSQL, Redis, Jest.
 - **Destaques:** Auditoria com partidas dobradas (débito/crédito atômicos), autenticação JWT e arquitetura modular para escala.
 
-#### 4. [JP Minimal](https://github.com/joaop-gregorioDS/jp-minimal)
+#### 4. [JP Moda Minimalista](https://github.com/joaop-gregorioDS/jp-moda-minimalista)
 E-commerce full-stack moderno de alta conversão para moda e vestuário.
 - **Stack:** Next.js 14 (App Router), React, Tailwind CSS, TypeScript, PostgreSQL (Prisma).
 - **Destaques:** Server Components, checkout otimizado, SEO avançado e 100% responsivo.
 
-#### 5. [Vision DTC](https://github.com/joaop-gregorioDS/vision-dtc)
-Sistema de diagnóstico e telemetria veicular em tempo real via OBD-II / CAN bus.
-- **Stack:** TypeScript, React, Vite, Tailwind CSS, WebSockets / Web Serial API.
-- **Destaques:** Leitura contínua de sensores do motor, decodificação de códigos de falha (DTCs) e painel gráfico interativo.
+#### 5. [Vision Dashboard](https://github.com/joaop-gregorioDS/vision-ecommerce-dashboard)
+Painel e-commerce analítico de alta performance para monitoramento de métricas e receita.
+- **Stack:** TypeScript, React, Tailwind CSS, Recharts.
+- **Destaques:** Gráficos interativos, KPIs em tempo real e arquitetura modular de componentes.
 
-#### 6. [Gregórios Restaurantes](https://github.com/joaop-gregorioDS/gregorios-restaurantes)
+#### 6. [Gregório Restaurantes](https://github.com/joaop-gregorioDS/gregorio-restaurantes)
 Plataforma integrada de delivery, cardápio digital interativo e controle de comandas.
 - **Stack:** React, Node.js, Express, PostgreSQL, Docker.
 - **Destaques:** Fluxo em tempo real de status de pedidos e integração direta de pagamentos.
