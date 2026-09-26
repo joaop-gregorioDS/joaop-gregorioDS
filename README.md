@@ -15,6 +15,8 @@ Protótipo de API de negociação e pós-negociação em C#/.NET 8, organizado e
 
 **Tecnologias:** C#, ASP.NET Core, Entity Framework Core, PostgreSQL, Redis, RabbitMQ, Docker Compose.
 
+**Hospedagem:** não está publicado on-line.
+
 **Escopo:** demonstração de portfólio; não é conectado à B3 nem executa clearing real.
 
 ### [BankCore](https://github.com/joaop-gregorioDS/bankcore-fintech)
@@ -22,6 +24,8 @@ Protótipo de API de negociação e pós-negociação em C#/.NET 8, organizado e
 Plataforma bancária demonstrativa com serviços de autenticação e transações, Pix interno, extrato e clientes web, desktop, Android e iOS.
 
 **Tecnologias:** Python, FastAPI, PostgreSQL, Redis, JavaScript, Tauri, Kotlin/Jetpack Compose e SwiftUI.
+
+**Hospedagem:** web banking e APIs na VPS própria, em [bankcore.vortexsoftware.tech](https://bankcore.vortexsoftware.tech/).
 
 **Escopo:** não se conecta ao SPI/DICT; cartões, DDA, investimentos e crédito são simulações.
 
@@ -31,6 +35,8 @@ Loja virtual demonstrativa com catálogo, busca, sacola, conta e pedidos, em cli
 
 **Tecnologias:** Next.js, React, TypeScript, Express, MongoDB/Mongoose, Kotlin/Jetpack Compose e SwiftUI.
 
+**Hospedagem:** web na Vercel, API no Render e banco no MongoDB Atlas.
+
 **Escopo:** pagamentos, frete e nota fiscal são simulados.
 
 ### [Neon Video Downloader](https://github.com/joaop-gregorioDS/neon-video-downloader)
@@ -38,6 +44,8 @@ Loja virtual demonstrativa com catálogo, busca, sacola, conta e pedidos, em cli
 Aplicativo desktop local para baixar mídia de URLs públicas, com seleção de pasta e acompanhamento do progresso.
 
 **Tecnologias:** Tauri 2, Rust, React, TypeScript, yt-dlp e ffmpeg.
+
+**Distribuição:** instalador Windows em GitHub Releases.
 
 **Escopo:** ferramenta local; não oferece serviço em nuvem nem contorna DRM ou acesso privado.
 
@@ -47,6 +55,8 @@ Dashboard de demonstração com KPIs, gráficos, tabela de produtos e stream vis
 
 **Tecnologias:** React, TypeScript, Vite, Tailwind CSS e Recharts.
 
+**Hospedagem:** aplicação web na Vercel.
+
 **Escopo:** usa carrinhos de uma API pública; tracking, CAPI, webhooks e parte dos eventos são modelados para a demonstração.
 
 ### [Gregório Restaurantes](https://github.com/joaop-gregorioDS/gregorio-restaurantes)
@@ -54,6 +64,8 @@ Dashboard de demonstração com KPIs, gráficos, tabela de produtos e stream vis
 Aplicação demonstrativa de cardápio digital, carrinho, cadastro, checkout e consulta de pedidos.
 
 **Tecnologias:** HTML, CSS, JavaScript, Node.js, Express e MongoDB/Mongoose.
+
+**Hospedagem:** frontend na Vercel, API no Render e banco no MongoDB Atlas.
 
 **Escopo:** pagamento e entrega não são integrados a provedores reais.
 
@@ -69,6 +81,8 @@ Dossiê web interativo com visualização em canvas e simulador de cenários de 
 
 **Tecnologias:** HTML, CSS e JavaScript.
 
+**Hospedagem:** site estático na Vercel.
+
 **Escopo:** números ilustrativos, sem pretensão de estudo oficial ou modelo de investimento.
 
 ### [Vortex Software](https://github.com/joaop-gregorioDS/vortex-software)
@@ -77,7 +91,9 @@ Site institucional e landing page responsiva para apresentar serviços, processo
 
 **Tecnologias:** React, TypeScript, Vinext, Tailwind CSS e componentes de interface.
 
-**Escopo:** projeto local sem deploy; o formulário valida dados no navegador e prepara um rascunho de e-mail, sem envio por endpoint.
+**Hospedagem:** site institucional na VPS própria, em [www.vortexsoftware.tech](https://www.vortexsoftware.tech/).
+
+**Escopo:** o formulário valida dados no navegador e prepara um rascunho de e-mail, sem envio por endpoint.
 
 ## Tecnologias presentes nos projetos
 
