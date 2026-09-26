@@ -5,7 +5,7 @@ São Paulo, SP · [LinkedIn](https://www.linkedin.com/in/joaop-gregorio/) · [E-
 
 Construo projetos de portfólio com APIs, aplicações web, clientes mobile e ferramentas desktop. Minha trajetória de 14 anos em operação técnica e supervisão de sistemas metroviários na CPTM também me trouxe experiência com procedimentos, análise de falhas e operação de sistemas críticos.
 
-Os projetos abaixo são demonstrações independentes. Cada README descreve o que funciona, quais dados são simulados e como executar ou testar a experiência.
+Todos os projetos de software abaixo foram idealizados e desenvolvidos exclusivamente por mim, da ideia à implementação e à etapa de entrega adequada a cada produto. A hospedagem e a distribuição variam entre VPS, Vercel, Render, MongoDB Atlas e GitHub Releases; nem todos são serviços on-line. Cada README descreve o que funciona e quais dados ou operações são simulados.
 
 ## Projetos em destaque
 
