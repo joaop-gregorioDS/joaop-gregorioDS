@@ -1,64 +1,96 @@
 # João Paulo Gregório de Souza
 
 **Desenvolvedor de Software — Back-End & Full-Stack**  
-São Paulo, SP • [LinkedIn](https://www.linkedin.com/in/joaop-gregorio/) • [joaop.gregorio@outlook.com](mailto:joaop.gregorio@outlook.com)
+São Paulo, SP · [LinkedIn](https://www.linkedin.com/in/joaop-gregorio/) · [E-mail](mailto:joaop.gregorio@outlook.com)
 
-Desenvolvedor focado em arquiteturas resilientes, APIs de alto desempenho, consistência transacional e mensageria assíncrona. Experiência com **C# (.NET 8)**, **TypeScript/Node.js**, **Python**, bancos relacionais (**PostgreSQL**, **SQL Server**), cache com **Redis** e mensageria distribuída com **RabbitMQ**.
+Construo projetos de portfólio com APIs, aplicações web, clientes mobile e ferramentas desktop. Minha trajetória de 14 anos em operação técnica e supervisão de sistemas metroviários na CPTM também me trouxe experiência com procedimentos, análise de falhas e operação de sistemas críticos.
 
-Trajetória de 14 anos na operação técnica e supervisão de sistemas metroviários de alta criticidade (CPTM), trazendo para a engenharia de software rigor absoluto em regras de negócio, tolerância a falhas, concorrência e alta disponibilidade.
+Os projetos abaixo são demonstrações independentes. Cada README descreve o que funciona, quais dados são simulados e como executar ou testar a experiência.
 
----
+## Projetos em destaque
 
-### 🚀 Projetos em Destaque
+### [B3 TradingCore](https://github.com/joaop-gregorioDS/b3-trading-core)
 
-#### 1. [B3.TradingCore](https://github.com/joaop-gregorioDS/b3-trading-core)
-Motor corporativo de pós-negociação e liquidação de ordens da B3 em **.NET 8 (C#)**.
-- **Stack:** C# .NET 8, Clean Architecture, Entity Framework Core, PostgreSQL, Redis, RabbitMQ, Docker Compose.
-- **Destaques:** Arquitetura orientada a eventos para liquidação, processamento assíncrono de ordens, idempotência e observabilidade.
+Protótipo de API de negociação e pós-negociação em C#/.NET 8, organizado em camadas. Persiste operações no PostgreSQL, usa Redis para cache e publica eventos no RabbitMQ.
 
-#### 2. [Investimentos Pro](https://github.com/joaop-gregorioDS/investimentos-pro)
-Simulador desktop de day trade na B3 (mini-índice, mini-dólar e ações fracionárias).
-- **Stack:** Python (CustomTkinter), SQLite, Engine matemática financeira proprietária.
-- **Destaques:** Cálculo exato de margem, pontuação e emolumentos B3/BM&F, boleta ágil e relatórios analíticos de performance.
-- 📦 [Download Instalador Windows v1.1.0](https://github.com/joaop-gregorioDS/investimentos-pro/releases/tag/v1.1.0)
+**Tecnologias:** C#, ASP.NET Core, Entity Framework Core, PostgreSQL, Redis, RabbitMQ, Docker Compose.
 
-#### 3. [BankCore](https://github.com/joaop-gregorioDS/bankcore-fintech)
-Plataforma de Web Banking corporativo com ledger contábil de partidas dobradas e transferências Pix.
-- **Stack:** TypeScript, Node.js, Express, PostgreSQL, Redis, Jest.
-- **Destaques:** Auditoria com partidas dobradas (débito/crédito atômicos), autenticação JWT e arquitetura modular para escala.
+**Escopo:** demonstração de portfólio; não é conectado à B3 nem executa clearing real.
 
-#### 4. [JP Moda Minimalista](https://github.com/joaop-gregorioDS/jp-moda-minimalista)
-E-commerce full-stack moderno de alta conversão para moda e vestuário.
-- **Stack:** Next.js 14 (App Router), React, Tailwind CSS, TypeScript, PostgreSQL (Prisma).
-- **Destaques:** Server Components, checkout otimizado, SEO avançado e 100% responsivo.
+### [BankCore](https://github.com/joaop-gregorioDS/bankcore-fintech)
 
-#### 5. [Vision Dashboard](https://github.com/joaop-gregorioDS/vision-ecommerce-dashboard)
-Painel e-commerce analítico de alta performance para monitoramento de métricas e receita.
-- **Stack:** TypeScript, React, Tailwind CSS, Recharts.
-- **Destaques:** Gráficos interativos, KPIs em tempo real e arquitetura modular de componentes.
+Plataforma bancária demonstrativa com serviços de autenticação e transações, Pix interno, extrato e clientes web, desktop, Android e iOS.
 
-#### 6. [Gregório Restaurantes](https://github.com/joaop-gregorioDS/gregorio-restaurantes)
-Plataforma integrada de delivery, cardápio digital interativo e controle de comandas.
-- **Stack:** React, Node.js, Express, PostgreSQL, Docker.
-- **Destaques:** Fluxo em tempo real de status de pedidos e integração direta de pagamentos.
+**Tecnologias:** Python, FastAPI, PostgreSQL, Redis, JavaScript, Tauri, Kotlin/Jetpack Compose e SwiftUI.
 
-#### 7. [Neon Video Downloader](https://github.com/joaop-gregorioDS/neon-video-downloader)
-Ferramenta desktop open-source com UI moderna para extração e processamento de mídias audiovisuais em alta resolução.
-- **Stack:** Python, CustomTkinter, ffmpeg, yt-dlp.
+**Escopo:** não se conecta ao SPI/DICT; cartões, DDA, investimentos e crédito são simulações.
 
----
+### [JP Moda Minimalista](https://github.com/joaop-gregorioDS/jp-moda-minimalista)
 
-### 🛠️ Tecnologias & Competências
+Loja virtual demonstrativa com catálogo, busca, sacola, conta e pedidos, em clientes web, Android e iOS.
 
-- **Linguagens & Frameworks:** C# (.NET 8, ASP.NET Core), TypeScript, JavaScript, Node.js, Python, React, Next.js.
-- **Bancos de Dados & Cache:** PostgreSQL, SQL Server, SQLite, Redis, Entity Framework Core, Prisma.
-- **Arquitetura & Mensageria:** Clean Architecture, Domain-Driven Design (DDD), Microserviços, RabbitMQ, REST APIs, WebSockets.
-- **DevOps & Ferramentas:** Docker, Docker Compose, Git/GitHub, CI/CD, Linux, Postman, Jest, xUnit.
+**Tecnologias:** Next.js, React, TypeScript, Express, MongoDB/Mongoose, Kotlin/Jetpack Compose e SwiftUI.
 
----
+**Escopo:** pagamentos, frete e nota fiscal são simulados.
 
-### 📬 Contato
+### [Neon Video Downloader](https://github.com/joaop-gregorioDS/neon-video-downloader)
 
-- **E-mail:** [joaop.gregorio@outlook.com](mailto:joaop.gregorio@outlook.com)
-- **LinkedIn:** [linkedin.com/in/joaop-gregorio](https://www.linkedin.com/in/joaop-gregorio/)
-- **Empresa:** Vortex Software LTDA
+Aplicativo desktop local para baixar mídia de URLs públicas, com seleção de pasta e acompanhamento do progresso.
+
+**Tecnologias:** Tauri 2, Rust, React, TypeScript, yt-dlp e ffmpeg.
+
+**Escopo:** ferramenta local; não oferece serviço em nuvem nem contorna DRM ou acesso privado.
+
+### [Vision DTC Dashboard](https://github.com/joaop-gregorioDS/vision-ecommerce-dashboard)
+
+Dashboard de demonstração com KPIs, gráficos, tabela de produtos e stream visual de eventos.
+
+**Tecnologias:** React, TypeScript, Vite, Tailwind CSS e Recharts.
+
+**Escopo:** usa carrinhos de uma API pública; tracking, CAPI, webhooks e parte dos eventos são modelados para a demonstração.
+
+### [Gregório Restaurantes](https://github.com/joaop-gregorioDS/gregorio-restaurantes)
+
+Aplicação demonstrativa de cardápio digital, carrinho, cadastro, checkout e consulta de pedidos.
+
+**Tecnologias:** HTML, CSS, JavaScript, Node.js, Express e MongoDB/Mongoose.
+
+**Escopo:** pagamento e entrega não são integrados a provedores reais.
+
+### [Investimentos Pro](https://github.com/joaop-gregorioDS/investimentos-pro)
+
+Simulador desktop de day trade com ordens, gráficos, indicadores, robôs e relatórios; há instaladores Windows e manual para avaliação.
+
+**Escopo:** preços, saldo e operações são simulados; não se conecta a corretora ou feed da bolsa. O repositório publica o produto e a documentação, sem o código-fonte do aplicativo.
+
+### [Plataforma Macaúba](https://github.com/joaop-gregorioDS/macauba-plataforma)
+
+Dossiê web interativo com visualização em canvas e simulador de cenários de produção e coprodutos da macaúba.
+
+**Tecnologias:** HTML, CSS e JavaScript.
+
+**Escopo:** números ilustrativos, sem pretensão de estudo oficial ou modelo de investimento.
+
+### [Vortex Software](https://github.com/joaop-gregorioDS/vortex-software)
+
+Site institucional e landing page responsiva para apresentar serviços, processo e projetos da Vortex Software.
+
+**Tecnologias:** React, TypeScript, Vinext, Tailwind CSS e componentes de interface.
+
+**Escopo:** projeto local sem deploy; o formulário valida dados no navegador e prepara um rascunho de e-mail, sem envio por endpoint.
+
+## Tecnologias presentes nos projetos
+
+- **Linguagens:** C#, TypeScript, JavaScript, Python, Kotlin, Swift e Rust.
+- **Web e APIs:** ASP.NET Core, FastAPI, Express, React, Next.js, HTML e CSS.
+- **Dados e mensageria:** PostgreSQL, MongoDB, Redis, RabbitMQ e Entity Framework Core.
+- **Mobile e desktop:** Jetpack Compose, SwiftUI e Tauri.
+- **Ambiente local:** Docker e Docker Compose em projetos específicos.
+
+Esta lista resume os repositórios públicos deste portfólio; não representa, por si só, uma validação de proficiência ou de experiência profissional em cada tecnologia.
+
+## Contato
+
+- [LinkedIn](https://www.linkedin.com/in/joaop-gregorio/)
+- [E-mail](mailto:joaop.gregorio@outlook.com)
+- Vortex Software
