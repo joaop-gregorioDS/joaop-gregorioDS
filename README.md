@@ -1,112 +1,96 @@
 # João Paulo Gregório de Souza
 
-**Desenvolvedor de Software — Back-End & Full-Stack**  
-São Paulo, SP · [LinkedIn](https://www.linkedin.com/in/joaop-gregorio/) · [E-mail](mailto:joaop.gregorio@outlook.com)
+**Engenheiro de Software na [Vortex Software](https://vortexsoftware.tech/)**  
+São Paulo, SP · [LinkedIn](https://www.linkedin.com/in/joaop-gregorio/) · [E-mail](mailto:joaop.gregorio@outlook.com) · [vortexsoftware.tech](https://vortexsoftware.tech/)
 
-Construo projetos de portfólio com APIs, aplicações web, clientes mobile e ferramentas desktop. Minha trajetória de 14 anos em operação técnica e supervisão de sistemas metroviários na CPTM também me trouxe experiência com procedimentos, análise de falhas e operação de sistemas críticos.
+---
 
-Todos os projetos de software abaixo foram idealizados e desenvolvidos exclusivamente por mim, da ideia à implementação e à etapa de entrega adequada a cada produto. A hospedagem e a distribuição variam entre VPS, Vercel, Render, MongoDB Atlas e GitHub Releases; nem todos são serviços on-line. Cada README descreve o que funciona e quais dados ou operações são simulados.
+### Sobre mim
 
-## Projetos em destaque
+Engenheiro de Software com foco em sistemas de missão crítica, arquiteturas orientadas a eventos, consistência transacional estrita e ecossistemas corporativos multiplataforma. Atuo na concepção, modelagem e entrega técnica de produtos de software na **[Vortex Software](https://vortexsoftware.tech/)**, aplicando padrões de engenharia para atender a requisitos rigorosos de segurança, integridade de dados e desempenho.
 
-### [B3 TradingCore](https://github.com/joaop-gregorioDS/b3-trading-core)
+Minha trajetória de **14 anos na CPTM** em operação técnica e supervisão de sistemas metroviários consolidou uma forte cultura de engenharia: disciplina operacional, análise de causa-raiz de falhas, conformidade procedimental e resiliência em ambientes onde paradas e inconsistências são inaceitáveis. Essa vivência fundamenta a forma como projeto software para cenários corporativos e licitações públicas de alta exigência técnica.
 
-Protótipo de API de negociação e pós-negociação em C#/.NET 8, organizado em camadas. Persiste operações no PostgreSQL, usa Redis para cache e publica eventos no RabbitMQ.
+---
 
-**Tecnologias:** C#, ASP.NET Core, Entity Framework Core, PostgreSQL, Redis, RabbitMQ, Docker Compose.
+### Stack Tecnológica & Competências
 
-**Hospedagem:** não está publicado on-line.
+> *"Tecnologia como meio. Resultado como objetivo. A stack é escolhida de acordo com requisitos de segurança, manutenção, desempenho, integração e custo."* — [Vortex Software](https://vortexsoftware.tech/)
 
-**Escopo:** demonstração de portfólio; não é conectado à B3 nem executa clearing real.
+| Domínio | Tecnologias Carro-Chefe |
+| :--- | :--- |
+| **Backend & Arquitetura (Core)** | **C#**, **.NET 10 / ASP.NET Core**, **Entity Framework Core**, **Clean Architecture & DDD**, Design de APIs RESTful / Minimal APIs, Padrão Transactional Outbox |
+| **Bancos de Dados & Mensageria** | **PostgreSQL 16/18** (ACID, transações e *advisory locks*), **Redis 7** (cache e pub/sub), **RabbitMQ** (event-driven e dead-letter exchange) |
+| **Mobile & Clientes Nativos** | **Kotlin & Jetpack Compose** (Android), **Swift & SwiftUI** (iOS), **Rust (Tauri 2)** (Desktop multiplataforma) |
+| **Frontend Web** | **React 19**, **Next.js** (App Router / SSR), **TypeScript**, Tailwind CSS, Lightweight Charts (TradingView) |
+| **Infraestrutura & DevOps** | **Docker & Containers**, **Nginx Gateway & Reverse Proxy**, **Linux & VPS Hosting**, CI/CD, Let's Encrypt / TLS |
+| **Engenharia Financeira & Dados** | Precisão decimal exata ($10^{-28}$), *Double-Entry Bookkeeping* (partidas dobradas), conformidade FEFO, gestão de risco pré-trade |
 
-### [BankCore](https://github.com/joaop-gregorioDS/bankcore-fintech)
+---
 
-Plataforma bancária demonstrativa com serviços de autenticação e transações, Pix interno, extrato e clientes web, desktop, Android e iOS.
+## 🏆 Projetos em Destaque — Vortex Labs
 
-**Tecnologias:** Python, FastAPI, PostgreSQL, Redis, JavaScript, Tauri, Kotlin/Jetpack Compose e SwiftUI.
+Projetos de engenharia de ponta a ponta desenvolvidos para demonstrar capacidade técnica real em cenários corporativos complexos:
 
-**Hospedagem:** web banking e APIs na VPS própria, em [bankcore.vortexsoftware.tech](https://bankcore.vortexsoftware.tech/).
+### 1. [Vortex Bank](https://github.com/joaop-gregorioDS/vortex-bank)
+**Core Bancário Digital Unificado & Monorepo Multiplataforma**  
+Solução financeira corporativa de alta fidelidade com motor transacional, livro-razão contábil (*double-entry bookkeeping*) e consistência ACID.
+* **Stack:** C#, .NET 10, ASP.NET Core, EF Core, PostgreSQL 16, Redis 7, React 19, TypeScript, Kotlin (Android), Swift (iOS).
+* **Diferenciais:** Arquitetura omnicanal compartilhando a mesma API real, rastreabilidade auditável, autenticação segura e concorrência bancária.
+* **Status:** 🌐 Em produção na VPS: [bank.vortexsoftware.tech/app](https://bank.vortexsoftware.tech/app)
 
-**Escopo:** não se conecta ao SPI/DICT; cartões, DDA, investimentos e crédito são simulações.
+---
 
-### [JP Moda Minimalista](https://github.com/joaop-gregorioDS/jp-moda-minimalista)
+### 2. [Vortex Trading Terminal](https://github.com/joaop-gregorioDS/vortex-trading-terminal)
+**Terminal Financeiro Profissional & Paper Trading da B3**  
+Mesa de operações simulada para ativos da B3 (Ações como PETR4/VALE3 e minicontratos futuros WIN/WDO) com precisão matemática absoluta.
+* **Stack:** C#, .NET 10 LTS, ASP.NET Core Minimal APIs, EF Core, PostgreSQL 18 (schema `trading`), Next.js 16, React 19, Lightweight Charts.
+* **Diferenciais:** Aritmética decimal estrita ($10^{-28}$ sem ponto flutuante), motor de risco pré-trade, execução FIFO sem look-ahead, apurador de Day Trade e **mais de 2.260 testes automatizados** com 100% de aprovação.
+* **Status:** 🌐 Em produção na VPS: [trading.vortexsoftware.tech](https://trading.vortexsoftware.tech)
 
-Loja virtual demonstrativa com catálogo, busca, sacola, conta e pedidos, em clientes web, Android e iOS.
+---
 
-**Tecnologias:** Next.js, React, TypeScript, Express, MongoDB/Mongoose, Kotlin/Jetpack Compose e SwiftUI.
+### 3. [Vortex Farma](https://github.com/joaop-gregorioDS/vortex-farma)
+**Farmácia Digital & Gestão Operacional de Varejo Conectado**  
+Plataforma que conecta a experiência de compra do consumidor ao gerenciamento de estoque, lotes e validade do varejo farmacêutico.
+* **Stack:** C#, .NET 10, ASP.NET Core Minimal APIs, EF Core 10, PostgreSQL 16, Redis 7, RabbitMQ, Next.js 16, React 19.
+* **Diferenciais:** Algoritmo FEFO (*First Expired, First Out*), reserva temporária de 20 minutos, *Transactional Outbox* para publicação assíncrona, bloqueios de quarentena e controle de concorrência por *advisory locks*.
+* **Status:** 🌐 Em produção na VPS: [farma.vortexsoftware.tech](https://farma.vortexsoftware.tech)
 
-**Hospedagem:** web na Vercel, API no Render e banco no MongoDB Atlas.
+---
 
-**Escopo:** pagamentos, frete e nota fiscal são simulados.
+### 4. [B3 TradingCore (API)](https://github.com/joaop-gregorioDS/b3-trading-core)
+**Motor de Pós-Negociação e Liquidação Financeira**  
+API de alto desempenho focada no processamento de ordens, clearing e ciclo de vida pós-trade no padrão da bolsa brasileira.
+* **Stack:** C#, .NET 8, ASP.NET Core, Entity Framework Core, PostgreSQL, Redis, RabbitMQ, Docker Compose.
+* **Diferenciais:** Arquitetura limpa em camadas, mensageria assíncrona com RabbitMQ, cache de cotações com Redis e pipeline de liquidação desacoplado.
 
-### [Neon Video Downloader](https://github.com/joaop-gregorioDS/neon-video-downloader)
+---
 
-Aplicativo desktop local para baixar mídia de URLs públicas, com seleção de pasta e acompanhamento do progresso.
+### 5. [BankCore Fintech](https://github.com/joaop-gregorioDS/bankcore-fintech)
+**Web Banking Corporativo & Clientes Multiplataforma Nativos**  
+Plataforma bancária corporativa demonstrativa com serviços de autenticação, transações, Pix interno, extrato e clientes nativos.
+* **Stack:** Python (FastAPI), PostgreSQL, Redis, JavaScript, Tauri 2, Kotlin (Jetpack Compose) e Swift (SwiftUI).
+* **Status:** 🌐 Em produção na VPS: [bankcore.vortexsoftware.tech](https://bankcore.vortexsoftware.tech)
 
-**Tecnologias:** Tauri 2, Rust, React, TypeScript, yt-dlp e ffmpeg.
+---
 
-**Distribuição:** instalador Windows em GitHub Releases.
+## 📦 Projetos Complementares
 
-**Escopo:** ferramenta local; não oferece serviço em nuvem nem contorna DRM ou acesso privado.
+| Projeto | Descrição | Tecnologias | Distribuição / Acesso |
+| :--- | :--- | :--- | :--- |
+| **[Vortex Software](https://github.com/joaop-gregorioDS/vortex-software)** | Site institucional e portal da empresa de software. | React, TypeScript, Tailwind CSS, Nginx | [vortexsoftware.tech](https://vortexsoftware.tech/) |
+| **[Neon Video Downloader](https://github.com/joaop-gregorioDS/neon-video-downloader)** | Ferramenta desktop local de alta performance para download de mídias públicas. | Tauri 2, Rust, React, TypeScript, ffmpeg | [GitHub Releases](https://github.com/joaop-gregorioDS/neon-video-downloader/releases) |
+| **[JP Moda Minimalista](https://github.com/joaop-gregorioDS/jp-moda-minimalista)** | E-commerce demonstrativo com API e aplicativos mobile nativos. | Next.js, React, Express, MongoDB, Kotlin, SwiftUI | Vercel / Render |
+| **[Vision DTC Dashboard](https://github.com/joaop-gregorioDS/vision-ecommerce-dashboard)** | Painel de métricas analíticas e telemetria de e-commerce (CAC, LTV, AOV, Meta CAPI). | React, TypeScript, Vite, Tailwind CSS, Recharts | Vercel |
+| **[Gregório Restaurantes](https://github.com/joaop-gregorioDS/gregorio-restaurantes)** | Aplicação de delivery com cardápio digital, carrinho e controle de pedidos. | Node.js, Express, MongoDB, HTML5, CSS3 | Vercel / Render |
+| **[Plataforma Macaúba](https://github.com/joaop-gregorioDS/macauba-plataforma)** | Dossiê web interativo e simulador de bioeconomia, SAF, biocombustíveis e carbono. | HTML5 Canvas, JavaScript, CSS3 | Vercel |
 
-### [Vision DTC Dashboard](https://github.com/joaop-gregorioDS/vision-ecommerce-dashboard)
+---
 
-Dashboard de demonstração com KPIs, gráficos, tabela de produtos e stream visual de eventos.
+## 📬 Contato & Canais Institucionais
 
-**Tecnologias:** React, TypeScript, Vite, Tailwind CSS e Recharts.
-
-**Hospedagem:** aplicação web na Vercel.
-
-**Escopo:** usa carrinhos de uma API pública; tracking, CAPI, webhooks e parte dos eventos são modelados para a demonstração.
-
-### [Gregório Restaurantes](https://github.com/joaop-gregorioDS/gregorio-restaurantes)
-
-Aplicação demonstrativa de cardápio digital, carrinho, cadastro, checkout e consulta de pedidos.
-
-**Tecnologias:** HTML, CSS, JavaScript, Node.js, Express e MongoDB/Mongoose.
-
-**Hospedagem:** frontend na Vercel, API no Render e banco no MongoDB Atlas.
-
-**Escopo:** pagamento e entrega não são integrados a provedores reais.
-
-### [Investimentos Pro](https://github.com/joaop-gregorioDS/investimentos-pro)
-
-Simulador desktop de day trade com ordens, gráficos, indicadores, robôs e relatórios; há instaladores Windows e manual para avaliação.
-
-**Escopo:** preços, saldo e operações são simulados; não se conecta a corretora ou feed da bolsa. O repositório publica o produto e a documentação, sem o código-fonte do aplicativo.
-
-### [Plataforma Macaúba](https://github.com/joaop-gregorioDS/macauba-plataforma)
-
-Dossiê web interativo com visualização em canvas e simulador de cenários de produção e coprodutos da macaúba.
-
-**Tecnologias:** HTML, CSS e JavaScript.
-
-**Hospedagem:** site estático na Vercel.
-
-**Escopo:** números ilustrativos, sem pretensão de estudo oficial ou modelo de investimento.
-
-### [Vortex Software](https://github.com/joaop-gregorioDS/vortex-software)
-
-Site institucional e landing page responsiva para apresentar serviços, processo e projetos da Vortex Software.
-
-**Tecnologias:** React, TypeScript, Vinext, Tailwind CSS e componentes de interface.
-
-**Hospedagem:** site institucional na VPS própria, em [www.vortexsoftware.tech](https://www.vortexsoftware.tech/).
-
-**Escopo:** o formulário valida dados no navegador e prepara um rascunho de e-mail, sem envio por endpoint.
-
-## Tecnologias presentes nos projetos
-
-- **Linguagens:** C#, TypeScript, JavaScript, Python, Kotlin, Swift e Rust.
-- **Web e APIs:** ASP.NET Core, FastAPI, Express, React, Next.js, HTML e CSS.
-- **Dados e mensageria:** PostgreSQL, MongoDB, Redis, RabbitMQ e Entity Framework Core.
-- **Mobile e desktop:** Jetpack Compose, SwiftUI e Tauri.
-- **Ambiente local:** Docker e Docker Compose em projetos específicos.
-
-Esta lista resume os repositórios públicos deste portfólio; não representa, por si só, uma validação de proficiência ou de experiência profissional em cada tecnologia.
-
-## Contato
-
-- [LinkedIn](https://www.linkedin.com/in/joaop-gregorio/)
-- [E-mail](mailto:joaop.gregorio@outlook.com)
-- Vortex Software
+* **Empresa:** [Vortex Software (vortexsoftware.tech)](https://vortexsoftware.tech/)
+* **LinkedIn:** [linkedin.com/in/joaop-gregorio](https://www.linkedin.com/in/joaop-gregorio/)
+* **E-mail:** [joaop.gregorio@outlook.com](mailto:joaop.gregorio@outlook.com)
+* **GitHub:** [github.com/joaop-gregorioDS](https://github.com/joaop-gregorioDS)
