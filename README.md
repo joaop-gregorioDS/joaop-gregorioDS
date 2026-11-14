@@ -1,7 +1,8 @@
 # João Paulo Gregório de Souza
 
 **Engenheiro de Software na [Vortex Software](https://vortexsoftware.tech/)**  
-São Paulo, SP · [LinkedIn](https://www.linkedin.com/in/joaop-gregorio/) · [E-mail](mailto:joaop.gregorio@outlook.com) · [vortexsoftware.tech](https://vortexsoftware.tech/)
+São Paulo, SP · [LinkedIn](https://www.linkedin.com/in/joaop-gregoriods/) · [E-mail](mailto:jpgreg.souza84@gmail.com) · [vortexsoftware.tech](https://vortexsoftware.tech/)  
+💼 Aberto a oportunidades como Desenvolvedor .NET / Full-Stack (CLT ou PJ)
 
 ---
 
@@ -9,7 +10,13 @@ São Paulo, SP · [LinkedIn](https://www.linkedin.com/in/joaop-gregorio/) · [E-
 
 Engenheiro de Software com foco em sistemas de missão crítica, arquiteturas orientadas a eventos, consistência transacional estrita e ecossistemas corporativos multiplataforma. Atuo na concepção, modelagem e entrega técnica de produtos de software na **[Vortex Software](https://vortexsoftware.tech/)**, aplicando padrões de engenharia para atender a requisitos rigorosos de segurança, integridade de dados e desempenho.
 
-Minha trajetória de **14 anos na CPTM** em operação técnica e supervisão de sistemas metroviários consolidou uma forte cultura de engenharia: disciplina operacional, análise de causa-raiz de falhas, conformidade procedimental e resiliência em ambientes onde paradas e inconsistências são inaceitáveis. Essa vivência fundamenta a forma como projeto software para cenários corporativos e licitações públicas de alta exigência técnica.
+Minha trajetória de **quase 15 anos como Maquinista na CPTM** (2009–2024), em operação ferroviária de missão crítica, consolidou uma forte cultura de engenharia: disciplina operacional, análise de causa-raiz de falhas, conformidade procedimental e resiliência em ambientes onde paradas e inconsistências são inaceitáveis. Essa vivência fundamenta a forma como projeto software para cenários corporativos de alta exigência técnica.
+
+### Formação
+
+* **Pós-graduação em Engenharia de Software** — Universidade Cruzeiro do Sul (em andamento, conclusão prevista jul/2027)
+* **Tecnólogo em Análise e Desenvolvimento de Sistemas** — Universidade Cruzeiro do Sul (conclusão prevista dez/2026)
+* **Tecnólogo em Gestão Pública** — Universidade Cruzeiro do Sul (concluído)
 
 ---
 
@@ -23,7 +30,8 @@ Minha trajetória de **14 anos na CPTM** em operação técnica e supervisão de
 | **Bancos de Dados & Mensageria** | **PostgreSQL 16/18** (ACID, transações e *advisory locks*), **Redis 7** (cache e pub/sub), **RabbitMQ** (event-driven e dead-letter exchange) |
 | **Mobile & Clientes Nativos** | **Kotlin & Jetpack Compose** (Android), **Swift & SwiftUI** (iOS), **Rust (Tauri 2)** (Desktop multiplataforma) |
 | **Frontend Web** | **React 19**, **Next.js** (App Router / SSR), **TypeScript**, Tailwind CSS, Lightweight Charts (TradingView) |
-| **Infraestrutura & DevOps** | **Docker & Containers**, **Nginx Gateway & Reverse Proxy**, **Linux & VPS Hosting**, CI/CD, Let's Encrypt / TLS |
+| **Infraestrutura & DevOps** | **Docker & Docker Compose** (7 aplicações / 30 containers em produção), **Nginx Reverse Proxy**, **Linux (Ubuntu Server) & VPS**, hardening SSH/UFW, Let's Encrypt / TLS |
+| **Qualidade & CI** | **xUnit**, **Testcontainers**, **Playwright** (E2E), **GitHub Actions** |
 | **Engenharia Financeira & Dados** | Precisão decimal exata ($10^{-28}$), *Double-Entry Bookkeeping* (partidas dobradas), conformidade FEFO, gestão de risco pré-trade |
 
 ---
@@ -84,6 +92,7 @@ Plataforma bancária corporativa demonstrativa com serviços de autenticação, 
 | **[JP Moda Minimalista](https://github.com/joaop-gregorioDS/jp-moda-minimalista)** | E-commerce demonstrativo com API e aplicativos mobile nativos. | Next.js, React, Express, MongoDB, Kotlin, SwiftUI | Vercel / Render |
 | **[Vision DTC Dashboard](https://github.com/joaop-gregorioDS/vision-ecommerce-dashboard)** | Painel de métricas analíticas e telemetria de e-commerce (CAC, LTV, AOV, Meta CAPI). | React, TypeScript, Vite, Tailwind CSS, Recharts | Vercel |
 | **[Gregório Restaurantes](https://github.com/joaop-gregorioDS/gregorio-restaurantes)** | Aplicação de delivery com cardápio digital, carrinho e controle de pedidos. | Node.js, Express, MongoDB, HTML5, CSS3 | Vercel / Render |
+| **[Investimentos Pro](https://github.com/joaop-gregorioDS/investimentos-pro)** | Simulador desktop de day trade na B3, offline e sem corretora. | Desktop (instalador Windows) | [GitHub Releases](https://github.com/joaop-gregorioDS/investimentos-pro/releases) |
 | **[Plataforma Macaúba](https://github.com/joaop-gregorioDS/macauba-plataforma)** | Dossiê web interativo e simulador de bioeconomia, SAF, biocombustíveis e carbono. | HTML5 Canvas, JavaScript, CSS3 | Vercel |
 
 ---
@@ -91,6 +100,6 @@ Plataforma bancária corporativa demonstrativa com serviços de autenticação, 
 ## 📬 Contato & Canais Institucionais
 
 * **Empresa:** [Vortex Software (vortexsoftware.tech)](https://vortexsoftware.tech/)
-* **LinkedIn:** [linkedin.com/in/joaop-gregorio](https://www.linkedin.com/in/joaop-gregorio/)
-* **E-mail:** [joaop.gregorio@outlook.com](mailto:joaop.gregorio@outlook.com)
+* **LinkedIn:** [linkedin.com/in/joaop-gregoriods](https://www.linkedin.com/in/joaop-gregoriods/)
+* **E-mail:** [jpgreg.souza84@gmail.com](mailto:jpgreg.souza84@gmail.com)
 * **GitHub:** [github.com/joaop-gregorioDS](https://github.com/joaop-gregorioDS)
